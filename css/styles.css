@@ -662,7 +662,12 @@ strong {
 }
 
 @media (max-width: 767px) {
-  .cta-final { overflow: visible; }
+  .cta-final .btn--xl {
+    white-space: normal;
+    max-width: 100%;
+    font-size: 16px;
+    padding: 18px 24px;
+  }
 }
 
 @media (min-width: 768px) {
