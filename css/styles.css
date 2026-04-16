@@ -320,12 +320,12 @@ strong {
 }
 
 .hero__sub {
-  font-family: var(--font-display);
-  font-size: clamp(20px, 4vw, 36px);
-  font-weight: 600;
-  line-height: 1.2;
-  letter-spacing: -0.5px;
-  color: var(--mgt-neon);
+  font-family: var(--font-body);
+  font-size: clamp(14px, 2vw, 18px);
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0;
+  color: var(--text-gray-300);
 }
 
 .hero__thumb {
