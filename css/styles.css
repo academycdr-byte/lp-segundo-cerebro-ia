@@ -661,6 +661,10 @@ strong {
   overflow: hidden;
 }
 
+@media (max-width: 767px) {
+  .cta-final { overflow: visible; }
+}
+
 @media (min-width: 768px) {
   .cta-final { padding: 56px 40px; }
 }
